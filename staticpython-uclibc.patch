@@ -1,0 +1,12 @@
+diff -ur uClibc-0.9.33.2.orig/libc/misc/dirent/opendir.c uClibc-0.9.33.2/libc/misc/dirent/opendir.c
+--- uClibc-0.9.33.2.orig/libc/misc/dirent/opendir.c	2012-05-15 08:20:09.000000000 +0100
++++ uClibc-0.9.33.2/libc/misc/dirent/opendir.c	2015-04-16 16:29:09.869938262 +0100
+@@ -4,6 +4,8 @@
+  * Licensed under the LGPL v2.1, see the file COPYING.LIB in this tarball.
+  */
+ 
++#include <_lfs_64.h>
++
+ #include <errno.h>
+ #include <stdlib.h>
+ #include <string.h>
