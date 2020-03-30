@@ -1,10 +1,2 @@
-static python taken from:
-
-(svn info)
-URL: http://pts-mini-gpl.googlecode.com/svn/trunk/staticpython
-Repository Root: http://pts-mini-gpl.googlecode.com/svn
-Repository UUID: 5875f506-4f57-11de-a3de-f74ccfcb021d
-
-Original unmodified source mirror (hosted by OnApp) available from:
-
-http://mynewcloud.io/staticpython-build.tar.gz
+This repo contains static python sources and build instruction for both 2.7 and 3.8.1 versions used inside OnApp IS.
+At folder python3.8 in README you can find build instruction for Python3
